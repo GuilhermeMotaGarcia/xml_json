@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pratos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Pratos</h1>
+    <form id="dishForm">
+        <input type="text" id="dishName" placeholder="Nome do prato" required>
+        <input type="number" id="dishPrice" placeholder="Valor do prato" required>
+        <input type="number" id="dishRating" placeholder="Avaliação (1-5)" min="1" max="5" required>
+        <button type="submit">Adicionar Prato</button>
+    </form>
+    <table id="dishTable">
+        <thead>
+            <tr>
+                <th>Nome do Prato</th>
+                <th>Valor</th>
+                <th>Avaliação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Os pratos serão adicionados aqui -->
+        </tbody>
+    </table>
+    <script src="comida.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dishes>
+    <dish>
+        <name>Prato Exemplo</name>
+        <price>20.00</price>
+        <rating>4</rating>
+    </dish>
+</dishes>
